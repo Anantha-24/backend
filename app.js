@@ -12,7 +12,7 @@ const errorMiddleware = require("./apps/middleware/error");
 
 // Config
 if(process.env.NODE_ENV !=="PRODUCTION"){
-    require("dotenv").config({ path: "backend/apps/config/config.env" });
+    require("dotenv").config({ path: "apps/config/config.env" });
   }
 
 app.use(cors());
